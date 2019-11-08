@@ -5,8 +5,13 @@
   "repository": "https://github.com/MatheusFerreira71/backgroundJobsNode",
   "author": "Matheus Ferreira <matheusfernandofreire@hotmail.com>",
   "license": "MIT",
+  "scripts": {
+    "dev:server": "nodemon src/server.js"
+  },
   "dependencies": {
-    "express": "^4.17.1"
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "nodemailer": "^6.3.1"
   },
   "devDependencies": {
     "nodemon": "^1.19.4",
