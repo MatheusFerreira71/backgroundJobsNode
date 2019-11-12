@@ -9,7 +9,6 @@ export default {
             to: `${user.name} <${user.email}>`,
             subject: 'Cadastro de usuário',
             html: `Olá, ${user.name}, bem vindo ao nosso sistema de filas :-)`
-
         });
     }
 };
